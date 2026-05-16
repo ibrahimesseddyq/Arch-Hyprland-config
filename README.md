@@ -7,7 +7,7 @@ The setup focuses on workflow efficiency, keyboard navigation, and a minimalist 
 
 ---
 
-## 📁 Features
+##  Features
 
 - Keyboard-driven operation, minimal mouse usage required  
 - Custom workspace and window management
@@ -16,7 +16,7 @@ The setup focuses on workflow efficiency, keyboard navigation, and a minimalist 
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 ```sh
 git clone https://github.com/ibrahimesseddyq/Arch-Hyprland-config.git
@@ -27,7 +27,7 @@ Launch or reload Hyprland for changes to take effect.
 
 ---
 
-## 🖱️ Keyboard Shortcuts
+## Keyboard Shortcuts
 
 All keybindings are set in [hypr/hyprland.conf](./hypr/hyprland.conf):
 
@@ -53,16 +53,6 @@ All keybindings are set in [hypr/hyprland.conf](./hypr/hyprland.conf):
 - <kbd>SUPER</kbd> is typically your <kbd>Windows</kbd> key.
 - All programs (e.g., terminal, file manager, launcher) are configurable in the `.conf`.
 
----
-
-## 🖼️ Screenshot
-
-![Your Desktop Screenshot](screenshots/desktop.png)
-
-> **To show your setup:**  
-> 1. Take a screenshot of your Hyprland desktop.  
-> 2. Save it as `desktop.png` inside a new `screenshots/` folder in this repo.  
-> 3. It will appear above!
 
 ---
 
@@ -77,27 +67,7 @@ wallpaper {
 }
 ```
 
----
 
-## 🛠 Customization
-
-All settings can be further tweaked in the `hypr` directory:
-- Main config: [`hyprland.conf`](./hypr/hyprland.conf)
-- Wallpaper: [`hyprpaper.conf`](./hypr/hyprpaper.conf)
-
----
-
-## 💡 Tips
-
-- Explore and edit `hyprland.conf` to add more shortcuts or applications.
-- Use the [Hyprland wiki](https://wiki.hyprland.org/) for advanced options.
-- For persistent workspaces, see the `workspace = N, persistent:true` lines in the config.
-
----
-
-## 🤝 Credits
-
-- [Hyprland](https://github.com/hyprwm/Hyprland)
 - [Waybar](https://github.com/Alexays/Waybar) for the status bar
 - [wofi](https://hg.sr.ht/~scoopta/wofi) for the app launcher
 
